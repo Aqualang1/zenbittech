@@ -1,6 +1,6 @@
 import './Login.css';
 import ButtonPanel from '../../components/ButtonPanel/ButtonPanel';
-import Input from '../../components/ButtonPanel/Input/Input';
+import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 
 const Login = () => {
