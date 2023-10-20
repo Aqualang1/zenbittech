@@ -1,10 +1,19 @@
 import './Login.css';
-import ButtonPanel from '../../components/ButtonPanel/ButtonPanel';
 import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 import { useNavigate } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Login = () => {
+
+    const ButtonPanel = styled.div`
+    height: 5vmax;
+    background-color: #172234;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    font-size: 16px;
+    `;
 
     const navigate = useNavigate();
 
@@ -18,9 +27,9 @@ const Login = () => {
         <div className="login">
             <ButtonPanel />
             <div className='formBox'>
-                <form 
-                onSubmit={handleSumbit}
-                className='form'>
+                <form
+                    onSubmit={handleSumbit}
+                    className='form'>
                     <p className='description'>Login</p>
                     <label htmlFor='email'>Email</label>
                     <Input

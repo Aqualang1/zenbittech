@@ -1,8 +1,0 @@
-.ButtonPanel {
-    height: 5vmax;
-    background-color: #172234;
-    display: flex;
-    justify-content: flex-end;
-    gap: 1vw;
-    font-size: 16px;
-}
