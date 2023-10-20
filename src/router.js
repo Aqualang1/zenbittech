@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from './containers/NotFound/NotFound.js';
 
 const AppRouter = () => (
-    <BrowserRouter >
+    <BrowserRouter basename='/zenbittech'>
         <Routes>
 
             <Route
