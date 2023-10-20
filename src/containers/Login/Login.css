@@ -33,6 +33,10 @@
     background: #B29F7E;
     color: white;
     width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
 }
 
 .forgotPassword {
@@ -51,8 +55,7 @@
     text-decoration: underline;
 }
 
-input,
-button {
+.form>input {
     padding: 15px;
     border: none;
     border-radius: 5px;

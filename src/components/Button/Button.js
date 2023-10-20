@@ -1,7 +1,15 @@
 import './Button.css';
 
 const Button = (props) => {
-    return <button {...props}>Sign in</button>
+
+    const { title, className, type } = props;
+
+    return <button
+        className={className}
+        type={type}
+    >
+        {title}
+    </button>
 }
 
 export default Button;

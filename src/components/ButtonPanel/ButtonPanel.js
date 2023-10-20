@@ -1,8 +1,14 @@
 import './ButtonPanel.css';
 
-const ButtonPanel = () => {
+const ButtonPanel = (props) => {
+
+    const { logIn, singnUp } = props;
+
     return (
-        <div className='ButtonPanel'></div>
+        <div className='ButtonPanel'>
+        {logIn}
+        {singnUp}
+        </div>
     )
 }
 
