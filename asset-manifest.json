@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zenbittech/static/css/main.c40deebe.css",
-    "main.js": "/zenbittech/static/js/main.9abeca8d.js",
-    "static/media/backgroundMain.png": "/zenbittech/static/media/backgroundMain.ba182231caa49bdfac2a.png",
-    "static/media/background.png": "/zenbittech/static/media/background.2d3a0ccedeb157ce307a.png",
-    "index.html": "/zenbittech/index.html",
-    "main.c40deebe.css.map": "/zenbittech/static/css/main.c40deebe.css.map",
-    "main.9abeca8d.js.map": "/zenbittech/static/js/main.9abeca8d.js.map"
+    "main.css": "./static/css/main.0eebdb74.css",
+    "main.js": "./static/js/main.ae4e1705.js",
+    "static/media/backgroundMain.png": "./static/media/backgroundMain.ba182231caa49bdfac2a.png",
+    "static/media/background.png": "./static/media/background.2d3a0ccedeb157ce307a.png",
+    "index.html": "./index.html",
+    "main.0eebdb74.css.map": "./static/css/main.0eebdb74.css.map",
+    "main.ae4e1705.js.map": "./static/js/main.ae4e1705.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40deebe.css",
-    "static/js/main.9abeca8d.js"
+    "static/css/main.0eebdb74.css",
+    "static/js/main.ae4e1705.js"
   ]
 }
